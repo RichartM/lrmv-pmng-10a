@@ -9,7 +9,7 @@ services:
       DC_DATASOURCE: ${ENV_DATASOURCE}
       DC_DBUSER: ${ENV_DB_USER}
       DC_DB_PASS: ${ENV_DB_PASS}
-      DC_DB_CLASS-NAME: ${ENV_DB_CLASS-NAME}
+      DC_DB_CLASS_NAME: ${ENV_DB_CLASS-NAME}
     ports:
       - "8089:8080"
     networks:
