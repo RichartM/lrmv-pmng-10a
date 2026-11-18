@@ -3,7 +3,7 @@ pipeline{
     enviroment{
         COMPOSE_PROJECT_NAME = 'pmng'
         COMPOSE_FILE = 'docker-compose.yml'
-        ENV-FILE = credentials('pmng-env')
+        ENV_FILE = credentials('pmng-env')
     }
     stages{
         stage('Parar servicios'){
